@@ -15,7 +15,6 @@ h5 {
   font-size: 25px;
   color: #aa00bf; }
 
-
 nav div ul li a {
   color: white !important;
   font-weight: bold;
@@ -37,18 +36,6 @@ nav div ul li a:hover {
 /*Home*/
 .letra-carousel-home {
   color: white; }
-
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.carousel-caption {
-  padding-bottom: 5%; }
 
 /*Seccion nosotros*/
 .imagen-nosotros {
@@ -78,12 +65,13 @@ nav div ul li a:hover {
   position: relative;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: .7s ease;
-  transition: .7s ease;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
   -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
   box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65); }
 
-.adelante, .atras {
+.adelante,
+.atras {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -155,3 +143,8 @@ footer {
 
 .redes-footer {
   margin-right: 20px; }
+
+/* organizar esto stilos */
+.portafolio_icono-negro {
+  width: 35px;
+  background: #000; }

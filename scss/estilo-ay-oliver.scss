@@ -1,36 +1,35 @@
+html {
+	scroll-behavior: smooth;
+}
 
- html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: 'Overpass', sans-serif;
-  }
-  h2{
-   color: #ff009a;
-   font-weight: bold;
-   font-family: 'Chivo', sans-serif;
-  }
-h5{
+body {
+	font-family: 'Overpass', sans-serif;
+}
+h2 {
+	color: #ff009a;
+	font-weight: bold;
+	font-family: 'Chivo', sans-serif;
+}
+h5 {
 	padding-top: 30px;
 	font-weight: bold;
 	font-size: 25px;
 	color: #aa00bf;
-  }
-section {
-	padding: 150px 0;
 }
+// section {
+// padding: 150px 0;
+// }
 
-nav{
-	div{
-		ul{
-			li{
-				a{
+nav {
+	div {
+		ul {
+			li {
+				a {
 					color: white !important;
 					font-weight: bold;
 					font-size: 18px;
 				}
-				& a:hover{
+				& a:hover {
 					background-color: white !important ;
 					color: #ff009a !important;
 					border-radius: 5px;
@@ -40,39 +39,38 @@ nav{
 	}
 }
 
-
-.descripcion{
+.descripcion {
 	font-size: 17px;
 	color: black;
 	text-align: justify;
 }
 
-.navbar{
+.navbar {
 	background-color: #ff009a;
 }
 /*Home*/
-.letra-carousel-home{
+.letra-carousel-home {
 	color: white;
 }
-.carousel-item {
-	height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  .carousel-caption{
-    padding-bottom: 5%;
-  }
-  /*Seccion nosotros*/
-  .imagen-nosotros{
-	  height: 230px;
-  }
-  /*Seccion servicios*/
-  .wrap{
+// .carousel-item {
+// height: 100vh;
+// min-height: 350px;
+// background: no-repeat center center scroll;
+// -webkit-background-size: cover;
+// -moz-background-size: cover;
+// -o-background-size: cover;
+// background-size: cover;
+// }
+
+// .carousel-caption {
+// 	padding-bottom: 5%;
+// }
+/*Seccion nosotros*/
+.imagen-nosotros {
+	height: 230px;
+}
+/*Seccion servicios*/
+.wrap {
 	margin: 30px auto;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -84,27 +82,27 @@ nav{
 	justify-content: center;
 }
 
-.tarjeta-wrap{
+.tarjeta-wrap {
 	margin: 10px;
 	-webkit-perspective: 800;
 	perspective: 800;
 }
 
-.tarjeta{
+.tarjeta {
 	width: 250px;
 	height: 300px;
 	background: white;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-transition: .7s ease;
-	transition: .7s ease;
-	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-
+	-webkit-transition: 0.7s ease;
+	transition: 0.7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
 }
 
-.adelante, .atras{
+.adelante,
+.atras {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -114,15 +112,15 @@ nav{
 	backface-visibility: hidden;
 }
 
-.adelante{
+.adelante {
 	width: 100%;
 }
 
-.adelante p{
+.adelante p {
 	font-size: xx-large;
 }
 
-.atras{
+.atras {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 
@@ -145,35 +143,34 @@ nav{
 	background: #ff009a;
 }
 
-.tarjeta-wrap:hover .tarjeta{
+.tarjeta-wrap:hover .tarjeta {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
-.card-servicios{
+.card-servicios {
 	background-size: 60% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-
-.titulo-donde-estamos{
+.titulo-donde-estamos {
 	color: #ff009a;
 	font-weight: bold;
-   font-family: 'Chivo', sans-serif;
-   font-size: 20px;
+	font-family: 'Chivo', sans-serif;
+	font-size: 20px;
 }
-label{
+label {
 	color: #ff009a;
 }
-.btn-enviar{
+.btn-enviar {
 	background-color: #ff009a;
 	color: white;
 }
-input::placeholder{
+input::placeholder {
 	color: #a0a0a0 !important ;
 }
-textarea::placeholder{
+textarea::placeholder {
 	color: #a0a0a0 !important ;
 }
 /*Footer*/
@@ -181,10 +178,16 @@ textarea::placeholder{
 footer {
 	background-color: #aa00bf;
 }
-.logo-footer{
+.logo-footer {
 	margin-right: 20px;
 }
 
-.redes-footer{
+.redes-footer {
 	margin-right: 20px;
+}
+
+/* organizar esto stilos */
+.portafolio_icono-negro {
+	width: 35px;
+	background: #000;
 }

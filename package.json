@@ -14,5 +14,13 @@
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale-schapira/proyecto-final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ale-schapira/proyecto-final/issues"
+  },
+  "homepage": "https://github.com/ale-schapira/proyecto-final#readme"
 }
