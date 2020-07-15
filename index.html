@@ -141,22 +141,34 @@
 				<div class="text-center">
 					<h2 class="py-3">Portfolio</h2>
 					<p class="lead py-3">Somos un grupo de diseñadores gráficos y programadores apasionados por el diseño y los gatitos! Conocé al equipo detrás Ay, Oliver! Creativos, Diseñadores, Técnicos.</p>
-					<!-- <div class="row container text-center">
-						<div class="col-lg-4 justify-content-sm-center">
-							<a href="#slider1" class="py-3">
-								<img class="portafolio-marcas" src="img/limey.png" alt="" />
-							</a>
+					<!-- 
+						Comentarios sobre el carousel:
+						En esta parte no pude terminar de resolver el slider del portfolio como lo habia pensado.
+						La idea incial era que en el lado izquierdo de la pantalla apareciera el nombre de la marca y una breve descripción del proyecto y en
+						el lado derecho un slider con fotos correspondientes a ese proyecto. Luego, con un boton de siguiente ir al siguiente proyecto manteniendo
+						la misma estructura (una especie de slider que contuviera a los tres elementos mencionados -titulo, parrafo y slider de imagen-).
+						Uno de los profesores me recomendo que no lo hiciera de esta manera porque era muy complejo y me recomendo que simplemente haga un slider debajo de otro (es decir,
+						3 sliders, 1 por cada proyecto). Lo probe asi y no me gusto como quedaba visualmente. 
+						Para esta entrega se me ocurrio intentar colocar todas las imagenes de los distintos proyectos en un unico slider y poner el logo de las marcas arriba del mismo
+						para que al hacer click en cada logo, este redireccione a la primera imagen del proyecto de cada marca. Intente linkearlo pero no funciona, no me redirige a la imagen en cuestion.
+
+
+						<div class="row container text-center">
+							<div class="col-lg-4 justify-content-sm-center">
+								<a href="#slider1" class="py-3">
+									<img class="portafolio-marcas" src="img/limey.png" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="#slider2" class="py-3">
+									<img class="portafolio-marcas" src="img/rause.png" alt="" />
+								</a>
+							</div><div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="#slider3" class="py-3">
+									<img class="portafolio-marcas" src="img/minoa.png" alt="" />
+								</a>
+							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4">
-							<a href="#slider2" class="py-3">
-								<img class="portafolio-marcas" src="img/rause.png" alt="" />
-							</a>
-						</div><div class="col-lg-4 col-md-4 col-sm-4">
-							<a href="#slider3" class="py-3">
-								<img class="portafolio-marcas" src="img/minoa.png" alt="" />
-							</a>
-						</div>
-					</div>
 					-->
 				</div>
 
@@ -375,6 +387,7 @@
 				</div>
 				<div class="col-lg-6 col-md-12 overflow-hidden">
 					<h6 class="titulo-donde-estamos">¿Dónde estamos?</h6>
+					<!--No logre que el mapa sea totalmente responsive-->
 					<iframe 
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14118.77603798718!2d-15.72359812915048!3d27.78840100731248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40819540a2e741%3A0x79928b54f9333bca!2sPuerto%20Rico%20de%20Gran%20Canaria%2C%20Las%20Palmas%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1593035939781!5m2!1ses-419!2sar"
 						width="600"
@@ -420,11 +433,5 @@
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 		<script src="js/scrolling-nav.js"></script>
-		<script type="text/javascript">
-			$("a.link").click(function () {
-				$("a.link").css("background-color", "black");
-				$(this).css("background-color", "red");
-			});
-		</script>
 	</body>
 </html>
