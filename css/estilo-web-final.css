@@ -20,9 +20,19 @@ nav div ul li a {
   font-size: 18px; }
 
 nav div ul li a:hover {
-  background-color: white !important;
+  background-color:white !important;
   color: #ff009a !important;
   border-radius: 5px; }
+
+.dropdown-item.desplegable{
+    color: #ff009a !important;
+  }
+
+  .dropdown-item.desplegable:hover{
+    background-color:#ff009a !important;
+    color: white !important;
+  }
+
 
 .descripcion {
   font-size: 17px;
